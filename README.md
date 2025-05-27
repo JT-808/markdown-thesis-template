@@ -4,8 +4,8 @@
 ![LaTeX](https://img.shields.io/badge/PDF-LaTeX-008080?logo=latex)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
-![Downloads](https://img.shields.io/github/downloads/JT-808/Bachelor_vorlage/total)
 ![Contributors](https://img.shields.io/github/contributors/JT-808/Bachelor_vorlage)
+
 
 Modernes Template für wissenschaftliche Arbeiten mit Markdown-Pandoc-LaTeX-Workflow.
 - Markdown-basiertem Workflow
@@ -39,15 +39,19 @@ chmod +x compile.sh
 ## 📂 Projektstruktur
 ```
 .
-├── 00_Deckblatt.md          # 
-├── chapters/                # Alle Kapitel
-│   ├── 01_Einleitung.md
-│   ├── 02_Grundlagen.md
-│   └── ...
-├── assets/                  # Medien
-├── Literatur.bib            # Literaturdatenbank
+├── 00_Deckblatt.md          
+├── 01_Einleitung.md         
+├── 02_Grundlagen.md         
+├── 03_Methodik.md           
+├── 04_Ergebnisse.md         
+├── 05_Diskussion.md        
+├── 06_Anhang.md             # Optional
+├── assets/                  # Bilder/Daten
+│   ├── diagramme/           # 
+│   └── bilder/              # 
+├── Literatur.bib            # BibTeX-Literaturdatenbank
 ├── metadata.yaml            # Globale Einstellungen
-└── compile.sh               # Build-Skript
+└── compile.sh               # Build-Skript (angepasst)
 ```
 
 ## 🔧 Konfiguration
