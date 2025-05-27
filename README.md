@@ -90,6 +90,7 @@ Zotero (Literaturverwaltung)
 VS Code mit Pandoc-Erweiterung
 
 🔍 **Tipp**: Für VS-Code-Nutzer empfiehlt sich die Extension [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) mit Pandoc-Integration.
+
 ---
 ## 📜 Lizenz
 Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
