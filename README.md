@@ -83,17 +83,6 @@ INPUT_FILES=(
   ```markdown
   Siehe @mustermann2020 [S. 42].
   ```
-
-## 🤝 Mitwirken
-1. Fork dieses Repository
-2. Erstelle einen Branch (`git checkout -b feature/neues-kapitel`)
-3. Commit deine Änderungen (`git commit -m 'Add xyz'`)
-4. Push zum Branch (`git push origin feature/neues-kapitel`)
-5. Öffne einen Pull Request
-
-## 📜 Lizenz
-Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
-
 ---
 🔍 Empfohlene Tools:
 
@@ -101,3 +90,17 @@ Zotero (Literaturverwaltung)
 VS Code mit Pandoc-Erweiterung
 
 🔍 **Tipp**: Für VS-Code-Nutzer empfiehlt sich die Extension [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) mit Pandoc-Integration.
+---
+## 📜 Lizenz
+Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
+Dieses Template darf:
+- Frei genutzt werden für nicht-kommerzielle Projekte
+- Modifiziert werden (mit Namensnennung)
+
+Kommerzielle Nutzung nur mit schriftlicher Genehmigung.
+Volltext: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+Ausgenommen:
+Generierte PDF-Dateien (diese unterliegen Ihrer eigenen Urheberschaft)
+Externe Bibliotheken (siehe Drittlizenzen)
+
