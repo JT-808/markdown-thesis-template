@@ -1,5 +1,4 @@
 title: "Titel der Bachelorarbeit"
-#subtitle: "Untertitel"
 author: "Max Mustermann"
 date: '\today'                 # Backticks + einfacher Backslash
 lang: "de"
@@ -17,7 +16,7 @@ link-citations: true           # Klickbare Zitate im PDF
 
 
 # weitere
-
+# subtitle: "Untertitel"
 # geometry: "a4paper, left=3cm, right=2.5cm"
 # mainfont: "Times New Roman"                # Schriftart
 # linestretch: 1.25                          # Zeilenabstand
@@ -31,3 +30,4 @@ mathspec: true
 mathml: true
 highlight-style: "pygments"  # Code-Highlighting
 code-block-font-size: "small"
+
