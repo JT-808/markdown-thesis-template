@@ -4,6 +4,8 @@
 ![LaTeX](https://img.shields.io/badge/PDF-LaTeX-008080?logo=latex)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
 [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
+![Downloads](https://img.shields.io/github/downloads/JT-808/Bachelor_vorlage/total)
+![Contributors](https://img.shields.io/github/contributors/JT-808/Bachelor_vorlage)
 
 Modernes Template für wissenschaftliche Arbeiten mit Markdown-Pandoc-LaTeX-Workflow.
 - Markdown-basiertem Workflow
