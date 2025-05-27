@@ -12,14 +12,19 @@ Modernes Template für wissenschaftliche Arbeiten (Bachelor/Master) mit:
 
 ## 🚀 Schnellstart
 
+### 📋 Voraussetzungen
+
 ### Voraussetzungen
 - [Pandoc](https://pandoc.org/installing.html) ≥ 3.0  
-- LaTeX-Distribution (z.B. [TeX Live](https://www.tug.org/texlive/))
+- LaTeX-Distribution (z.B. pdflatex oder xelatex)
+```bash
+sudo apt-get install texlive-latex-base texlive-fonts-recommended
+```
 - Git
 
 ### Installation
 ```bash
-git clone https://github.com/deinusername/bachelorarbeit-template.git
+git clone https://github.com/JT-808/Bachelor_vorlage.git
 cd bachelorarbeit-template
 ```
 
