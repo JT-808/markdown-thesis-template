@@ -1,0 +1,33 @@
+title: "Titel der Bachelorarbeit"
+#subtitle: "Untertitel"
+author: "Max Mustermann"
+date: '\today'                 # Backticks + einfacher Backslash
+lang: "de"
+fontsize: 12pt
+geometry: a4paper
+toc: true
+toc-depth: 2                  # Überschriftenebenen
+documentclass: scrreprt
+bibliography: Literatur.bib
+csl: ieee.csl                 # Zitationsstil (IEEE, APA etc.)
+reference-section-title: "Literaturverzeichnis"
+link-citations: true           # Klickbare Zitate im PDF
+
+
+
+
+# weitere
+
+# geometry: "a4paper, left=3cm, right=2.5cm"
+# mainfont: "Times New Roman"                # Schriftart
+# linestretch: 1.25                          # Zeilenabstand
+# toc-title: "Inhalt"                        # Titel des ToC
+
+
+
+# Mathematic und code
+
+mathspec: true
+mathml: true
+highlight-style: "pygments"  # Code-Highlighting
+code-block-font-size: "small"
