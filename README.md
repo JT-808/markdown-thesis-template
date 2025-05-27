@@ -1,4 +1,4 @@
-# 📚 Wissenschaftliche Arbeit Template mit Pandoc
+# 📚 Moderne Thesis-Erstellung mit Markdown & LaTeX
 
 ![Pandoc](https://img.shields.io/badge/Made_with-Pandoc-1a162d?logo=pandoc&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/PDF-LaTeX-008080?logo=latex)
