@@ -1,53 +1,51 @@
-# 📚 Bachelorarbeit Template mit Pandoc
+# 📚 Wissenschaftliche Arbeit Template mit Pandoc
 
 ![Pandoc](https://img.shields.io/badge/Made_with-Pandoc-1a162d?logo=pandoc&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/PDF-LaTeX-008080?logo=latex)
-[![CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC_BY--SA_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](CODE_OF_CONDUCT.md)
 
-Modernes Template für wissenschaftliche Arbeiten (Bachelor/Master) mit:
-- **Markdown**-basiertem Workflow  
-- Automatisierter **PDF-Generierung**  
-- Zitierverwaltung via **BibTeX**  
-- CI/CD-Unterstützung (GitHub Actions)  
+Modernes Template für wissenschaftliche Arbeiten mit Markdown-Pandoc-LaTeX-Workflow.
+- Markdown-basiertem Workflow
+- Automatisierter PDF-Generierung
+- Zitierverwaltung via BibTeX
+- CI/CD-Unterstützung (GitHub Actions)
 
 ## 🚀 Schnellstart
 
 ### 📋 Voraussetzungen
+- [Pandoc](https://pandoc.org/installing.html) ≥ 3.0
+- LaTeX-Distribution:
+  ```bash
+  # Minimalinstallation
+  sudo apt-get install texlive-latex-base texlive-fonts-recommended
+  
+  # Vollversion (empfohlen)
+  sudo apt-get install texlive-full
 
-### Voraussetzungen
-- [Pandoc](https://pandoc.org/installing.html) ≥ 3.0  
-- LaTeX-Distribution (z.B. pdflatex oder xelatex)
-```bash
-sudo apt-get install texlive-latex-base texlive-fonts-recommended
-```
-- Git
+  - Git
+
 
 ### Installation
 ```bash
-git clone https://github.com/JT-808/Bachelor_vorlage.git
+git clone https://github.com/JT-808/markdown-thesis-template.git
 cd bachelorarbeit-template
-```
-
-### Kompilierung
-```bash
 chmod +x compile.sh
-./compile.sh
+./compile.sh  # Generiert output/Bachelorarbeit.pdf
 ```
-➡ Output: `output/Bachelorarbeit.pdf`
 
 ## 📂 Projektstruktur
 ```
 .
-├── 00_Deckblatt.md          # Titelblatt (YAML-Metadaten)
-├── 01_Einleitung.md         # 
-├── 02_Grundlagen.md         # Theoretischer Hintergrund
-├── 03_Methodik.md           # 
-├── 04_Ergebnisse.md         # 
-├── 05_Diskussion.md         # 
+├── 00_Deckblatt.md          # 
+├── chapters/                # Alle Kapitel
+│   ├── 01_Einleitung.md
+│   ├── 02_Grundlagen.md
+│   └── ...
+├── assets/                  # Medien
+├── Literatur.bib            # Literaturdatenbank
 ├── metadata.yaml            # Globale Einstellungen
-├── Literatur.bib            # BibTeX-Literaturdatenbank
-├── compile.sh               # Build-Skript
-└── assets/                  # Bilder/Daten
+└── compile.sh               # Build-Skript
 ```
 
 ## 🔧 Konfiguration
@@ -91,5 +89,9 @@ INPUT_FILES=(
 Creative Commons Attribution-ShareAlike 4.0 (CC BY-SA 4.0)
 
 ---
+🔍 Empfohlene Tools:
+
+Zotero (Literaturverwaltung)
+VS Code mit Pandoc-Erweiterung
 
 🔍 **Tipp**: Für VS-Code-Nutzer empfiehlt sich die Extension [Markdown All in One](https://marketplace.visualstudio.com/items?itemName=yzhang.markdown-all-in-one) mit Pandoc-Integration.
