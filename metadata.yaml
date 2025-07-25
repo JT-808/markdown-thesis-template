@@ -1,17 +1,47 @@
-title: "Titel der Bachelorarbeit"
-author: "Max Mustermann"
-date: '\today'                 # Backticks + einfacher Backslash
-lang: "de"
+title: "Titel der Arbeit"
+subtitle: "Untertitel" # otional
+author: |
+  Dein Name\\
+  Studiengang, Matrikelnummer
+date: \today
+institute: "Hochschule Mittweida"  # Optional, wird von Vorlage abhängig unterstützt
+lang: de
+documentclass: scrreprt  # oder book, article, scrbook, scrartcl etc.
 fontsize: 12pt
+papersize: a4paper
+geometry: margin=2.5cm  # oder a4paper
+toc: true               # Inhaltsverzeichnis
+toc-depth: 2            # Tiefe des Inhaltsverzeichnisses
+numbersections: true    # Kapitel nummerieren
+listings: true          # Quellcode mit Listings-Umgebung (für Code-Highlighting)
+highlight-style: tango  # Code-Highlighting-Stil
+mainfont: "Times New Roman"    # Hauptschrift (optional)
+sansfont: "Arial"              # Serifenlose Schrift (optional)
+monofont: "Courier New"        # Schreibmaschinenschrift (für Code)
+colorlinks: true
+linkcolor: blue
 geometry: a4paper
-toc: true
-toc-depth: 2                  # Überschriftenebenen
-documentclass: scrreprt
-bibliography: Literatur.bib
-csl: ieee.csl                 # Zitationsstil (IEEE, APA etc.)
-reference-section-title: "Literaturverzeichnis"
-link-citations: true           # Klickbare Zitate im PDF
+linestretch: 1.5
+titlepage: true
+titlepage-color: "white"
+titlepage-text-color: "black"
+titlepage-rule-color: "gray"
+titlepage-rule-height: 1
 
+# Literatur
+bibliography: Literatur.bib
+csl: ieee.csl        # Zitationsstil (z. B. apa.csl, ieee.csl)
+
+# Abbildungsverzeichnis
+lof: true            # List of Figures
+lot: true            # List of Tables
+
+# PDF Engine
+pdf-engine: lualatex  # oder xelatex oder pdflatex
+
+# Metadaten für PDF
+subject: "Thema der Arbeit"
+keywords: [Keyword1, Keyword2, Keyword3]
 
 
 
